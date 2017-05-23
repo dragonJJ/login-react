@@ -1,0 +1,37 @@
+	   * {
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			list-style: none;
+		}
+		.box {
+			width: 80%;
+			margin:50px auto;
+			background: #ccc;
+			box-sizing:border-box;
+			padding:10px;
+		}
+		.top {
+			text-align:center;
+			overflow: hidden;
+			/*border:1px solid black;*/
+		}
+		.top img {
+			vertical-align: middle;
+			float: left;
+		}
+		.top span {
+			font-size: 16px;
+			line-height: 80px;
+		}
+		.bottom {
+			margin:10px;
+		}
+		.bottom .one{
+			font-size: 16px;
+			border: 1px solid gray;
+		}
+		.bottom .two {
+			font-size: 16px;
+		}
